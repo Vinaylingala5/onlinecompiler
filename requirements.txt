@@ -1,0 +1,18 @@
+## Django 
+Django
+
+## REST Framework
+requests  
+cryptography
+python-dotenv
+django-cors-headers
+djangorestframework
+
+## Authentication
+djangorestframework-simplejwt
+dj-rest-auth
+
+## Database
+psycopg2-binary
+
+

@@ -1,1 +1,7 @@
+## Local environment
 venv/
+.env
+
+## Python cache
+*/__pycache__/
+*/__init__.py
