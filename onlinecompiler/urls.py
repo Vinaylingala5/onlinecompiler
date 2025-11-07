@@ -28,8 +28,8 @@ urlpatterns = [
     # # OAuth (Google login etc. through allauth)
     # path('accounts/', include('allauth.urls')),
 
-    # # Problems (CRUD and problem listing)
-    # path('api/problems/', include('problems.urls')),
+    # Problems (CRUD and problem listing)
+    path('api/problems/', include('problems.urls')),
 
     # # Test Cases (linked to problems)
     # path('api/testcases/', include('testcases.urls')),
@@ -37,8 +37,8 @@ urlpatterns = [
     # # Code Compiler / Execution
     # path('api/compiler/', include('compiler.urls')),
 
-    # # Submissions (user code submissions, verdicts, history)
-    # path('api/submissions/', include('submissions.urls')),
+    # Submissions (user code submissions, verdicts, history)
+    path('api/submissions/', include('submissions.urls')),
 
     # # Dashboard (user performance and stats)
     # path('api/dashboard/', include('dashboard.urls')),
