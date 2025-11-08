@@ -51,13 +51,8 @@ INSTALLED_APPS = [
 
     # Project apps
     'authentication',
-    'compiler',
-    'core',
-    'dashboard',
-    'leaderboard',
-    'submissions',
-    'testcases',
     'problems',
+    'submissions',
 ]
 
 MIDDLEWARE = [
